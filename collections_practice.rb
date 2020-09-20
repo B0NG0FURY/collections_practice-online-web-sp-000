@@ -53,5 +53,6 @@ def add_s(array)
       s_array << "#{word}s"
     end
   end
+  s_array[1] = array[1]
   s_array
 end
