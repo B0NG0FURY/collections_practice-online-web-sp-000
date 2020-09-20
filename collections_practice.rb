@@ -51,5 +51,7 @@ def add_s(array)
   array.each_with_index do |word|
     if index != 1
       s_array << "#{word}s"
+    end
   end
+  s_array
 end
