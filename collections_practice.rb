@@ -45,3 +45,11 @@ end
 def sum_array(array)
   array.inject(:+)
 end
+
+def add_s(array)
+  array.each_with_index.collect{|element, index|} do |word|
+    if index != 1
+      word = ""
+      
+  end
+end
